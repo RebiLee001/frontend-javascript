@@ -1,13 +1,11 @@
-// task_1/js/main.ts
-
 // Define the Teacher interface
 interface Teacher {
-  readonly firstName: string;        // Only modifiable during initialization
-  readonly lastName: string;         // Only modifiable during initialization
-  fullTimeEmployee: boolean;         // Always defined
-  yearsOfExperience?: number;        // Optional
-  location: string;                  // Always defined
-  [key: string]: any;                // Allows additional properties like contract
+  readonly firstName: string; // read-only
+  readonly lastName: string;  // read-only
+  fullTimeEmployee: boolean;  // required
+  yearsOfExperience?: number; // optional
+  location: string;           // required
+  [key: string]: any;         // allows additional attributes
 }
 
 // Example usage
@@ -16,7 +14,7 @@ const teacher3: Teacher = {
   fullTimeEmployee: false,
   lastName: 'Doe',
   location: 'London',
-  contract: false, // Additional property allowed
+  contract: false,
 };
 
 console.log(teacher3);

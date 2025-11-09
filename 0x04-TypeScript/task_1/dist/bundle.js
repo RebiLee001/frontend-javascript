@@ -16,7 +16,7 @@
   \********************/
 /***/ (() => {
 
-eval("{\n// Example usage:\nvar teacher3 = {\n    firstName: 'John',\n    fullTimeEmployee: false,\n    lastName: 'Doe',\n    location: 'London',\n    contract: false, // extra attribute allowed\n};\nconsole.log(teacher3);\n\n\n//# sourceURL=webpack://task_0/./js/main.ts?\n}");
+eval("{\n// Example usage\nvar teacher3 = {\n    firstName: 'John',\n    fullTimeEmployee: false,\n    lastName: 'Doe',\n    location: 'London',\n    contract: false,\n};\nconsole.log(teacher3);\n\n\n//# sourceURL=webpack://task_1/./js/main.ts?\n}");
 
 /***/ })
 
